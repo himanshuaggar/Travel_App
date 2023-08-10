@@ -30,7 +30,7 @@ export default function WelcomeScreen() {
             Experience world's best adventures with us
           </Text>
         </View>
-        <TouchableOpacity onPress={() => navigation.navigate("Home")} className=" bg-orange-500 mx-auto p-4 rounded-full px-12">
+        <TouchableOpacity onPress={() => navigation.navigate("Root")} className=" bg-orange-500 mx-auto p-4 rounded-full px-12">
           <Text className="text-white text-xl font-bold" style={{ fontSize: wp(6) }}>
             Let's Go!
           </Text>
