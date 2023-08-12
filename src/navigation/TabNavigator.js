@@ -7,6 +7,7 @@ import FavoriteScreen from "../screens/FavoriteScreen";
 import { HomeIcon, MagnifyingGlassIcon } from "react-native-heroicons/solid";
 import { HeartIcon } from "react-native-heroicons/outline"
 import HomeNavigator from "./HomeNavigator";
+import SearchNavigator from "./SearchNavigator";
 
 const Tab = createBottomTabNavigator();
 
@@ -34,7 +35,7 @@ const TabNavigator = () => {
         //     }
         // }}
       />
-      <Tab.Screen name="Search" component={SearchScreen} options={{
+      <Tab.Screen name="Search" component={SearchNavigator} options={{
           tabBarIcon: ({focused}) => {
             return <MagnifyingGlassIcon size={30} strokeWidth={1} color="black" style={{ color: focused ? 'black' : 'gray'}} />;
           },
