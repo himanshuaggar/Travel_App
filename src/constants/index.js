@@ -33,44 +33,57 @@ export const categoriesData = [
 ]
 export const destinationData = [
     {
-        title: 'Osaka Castle',
+        title: 'Zhangye Danxia Geopark, China',
         duration: '12 Days',
         distance: '400 KM',
         weather: '20 C',
         price: 1200,
-        shortDescription: "Osaka Castle is a Japanese castle in Chūō-ku, Osaka, Japan. The castle is one of Japan's most famous landmarks.",
-        longDescription: "Osaka Castle is a Japanese castle in Chūō-ku, Osaka, Japan. The castle is one of Japan's most famous landmarks and it played a major role in the unification of Japan during the sixteenth century of the Azuchi-Momoyama period.",
-        image: require('../../assets/images/hotel.png')
+        shortDescription: "Zhangye Danxia Geopark in China showcases nature's vibrant artistry with its stunning, multicolored rock formations.",
+        image: require('../../assets/images/trips/hbz-zhangye-gettyimages-175323801-1505334995.jpg')
     },
     {
-        title: 'Island Itsukushima Shrine',
+        title: 'Venice, Italy',
         duration: '7 Days',
         distance: '450 KM',
         weather: '30 C',
         price: 3000,
-        shortDescription: "The Itsukushima shrine is one of Japan's most popular tourist attractions.",
-        longDescription: "Itsukushima Shrine is a Shinto shrine on the island of Itsukushima, best known for its 'floating' torii gate. It is in the city of Hatsukaichi in Hiroshima Prefecture in Japan, accessible from the mainland by ferry at Miyajimaguchi Station.",
-        image: require('../../assets/images/island.png')
+        shortDescription: "Venice, Italy, is a city of enchanting canals, historic architecture, and timeless romance",
+        image: require('../../assets/images/trips/hbz-venice-gettyimages-489741024-1505338894.jpg')
     },
     
     {
-        title: 'Babusar Top',
+        title: 'Banff National Park, Canada',
         duration: '5 Days',
         distance: '299 KM',
         weather: '14 C',
         price: 1000,
-        shortDescription: "Babusar Top is a mountain pass in Pakistan at the north of the 150 km long in beautiful Kaghan Valley",
-        longDescription: "Babusar Pass or Babusar Top is a mountain pass in Pakistan at the north of the 150 km long Kaghan Valley, connecting it via the Thak Nala with Chilas on the Karakoram Highway. It is the highest point in Kaghan Valley that can be easily accessed by cars.",
-        image: require('../../assets/images/camp.png')
+        shortDescription: "Banff National Park in Canada is a pristine wilderness of towering mountains, turquoise lakes, and abundant wildlife.",
+        image: require('../../assets/images/trips/banff-517747003-1494616292.jpg'),
     },
     {
-        title: 'Todaiji Temple',
+        title: 'Great Ocean Road, Australia',
         duration: '20 Days',
         distance: '604 KM',
         weather: '34 C',
         price: 400,
-        shortDescription: "Todaiji is one of Japan's most famous and significant temples and a landmark of Nara.",
-        longDescription: "Tōdai-ji is a Buddhist temple complex that was once one of the powerful Seven Great Temples, located in the city of Nara, Japan. Though it was originally founded in the year 738 CE, Tōdai-ji was not opened until the year 752 CE.",
-        image: require('../../assets/images/forest.png')
+        shortDescription: "Great Ocean Road in Australia offers a breathtaking coastal drive along rugged cliffs and iconic natural wonders like the Twelve Apostles.",
+        image: require('../../assets/images/trips/great-ocean-road-128394846-1494616348.jpg')
+    },
+    {
+        title: 'Machu Picchu',
+        duration: '20 Days',
+        distance: '604 KM',
+        weather: '34 C',
+        price: 400,
+        shortDescription: "Machu Picchu, a UNESCO World Heritage site in Peru, is an ancient Inca citadel perched high in the Andes, shrouded in mystery and breathtaking beauty.",
+        image: require('../../assets/images/trips/hbz-machu-ppichu-gettyimages-629556601-1505338681.jpg')
+    },{
+        title: 'Marrakesh, Morocco',
+        duration: '20 Days',
+        distance: '604 KM',
+        weather: '34 C',
+        price: 400,
+        shortDescription: "Marrakesh, Morocco, is a vibrant city known for its bustling souks, intricate palaces, and a rich blend of cultures.",
+        image: require('../../assets/images/trips/marrakech-gettyimages-152834676.jpg')
     },
 ]
